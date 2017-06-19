@@ -1,71 +1,116 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="DATECSOFT">
-	  <meta name="keywords" content="">
-  	<meta name="author" content="Brad Traversy">
-    <title>Acme Web Design | Welcome</title>
+<head>
+	<title>DatecSoft</title>
 
-    <link rel="stylesheet" href="./css/style.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/style.css" rel="stylesheet" media="screen">
+  	<script src="js/javascript.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
 
-      </head>
-  <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Acme</span> Web Design</h1>
-        </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-          </ul>
-        </nav>
+</head>
+<body>
+
+<header></header>
+
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  <!-- Overlay -->
+  
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#bs-carousel" data-slide-to="1"></li>
+    <li data-target="#bs-carousel" data-slide-to="2"></li>
+  </ol>
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active">
+    <div class="overlay"></div>
+      <div class="slide-1"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>NOSOTROS SOMOS</h1>        
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">See all features</button>
       </div>
-    </header>
-
-    <section id="showcase">
-      <div class="container">
-        <h1>DATECSOFT</h1>
-        <p>no digas que esta feo, esto es una prueba hijitoooooooooo :v</p>
+    </div>
+    <div class="item slides">
+    <div class="overlay"></div>
+      <div class="slide-2"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>DATECSOFT</h1>        
+            <h3>Get start your next awesome project</h3>
+        </hgroup>       
+        <button class="btn btn-hero btn-lg" role="button">See all features</button>
       </div>
-    </section>
-
-    <section id="newsletter">
-      <div class="container">
-        <h1>Subscribe To Our Newsletter</h1>
-        <form>
-          <input type="email" placeholder="Enter Email...">
-          <button type="submit" class="button_1">Subscribe</button>
-        </form>
+    </div>
+    <div class="item slides">
+    <div class="overlay"></div>
+      <div class="slide-3"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>putitos... :v</h1>        
+            <h3>Get start your next awesome project</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">See all features</button>
       </div>
-    </section>
+    </div>
+  </div> 
+</div>
 
-    <section id="boxes">
-      <div class="container">
-        <div class="box">
-          <img src="./img/logo_html.png">
-          <h3>HTML5 Markup</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-        </div>
-        <div class="box">
-          <img src="./img/logo_css.png">
-          <h3>CSS3 Styling</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-        </div>
-        <div class="box">
-          <img src="./img/logo_brush.png">
-          <h3>Graphic Design</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-        </div>
-      </div>
-    </section>
 
-    <footer>
-      <p>Acme Web Deisgn, Copyright &copy; 2017</p>
-    </footer>
-  </body>
+<section class="modern_tools" class="section ">
+	<div class="container">
+      
+	<div class="row">
+		<h2 class="section-heading">Modern tools</h2>
+		<span class="separator"></span>
+		<p class="section-subheading">Partnership or temporary organization perfectly designed.</p>
+	</div>
+
+	<div class="row">
+		<div class="col-md-3">
+			<img src="img/logocasa.jpg" class="icono"></img>
+			<h4 class="service-heading">Boost performance</h4>
+			<p>GRID displays your content in an eye-catching way and enables customizable internal distribution.</p>
+		</div>
+		<div class="col-md-3">
+			<img src="img/logocasa.jpg" class="icono"></img>
+			<h4 class="service-heading">Boost performance</h4>
+			<p>GRID displays your content in an eye-catching way and enables customizable internal distribution.</p>
+		</div>
+		<div class="col-md-3">
+			<img src="img/logocasa.jpg" class="icono"></img>
+			<h4 class="service-heading">Boost performance</h4>
+			<p>GRID displays your content in an eye-catching way and enables customizable internal distribution.</p>
+		</div>
+		<div class="col-md-3">
+			<img src="img/logocasa.jpg" class="icono"></img>
+			<h4 class="service-heading">Boost performance</h4>
+			<p>GRID displays your content in an eye-catching way and enables customizable internal distribution.</p>
+		</div>
+	</div>
+	</div>
+
+</section>
+
+<section class="section ">
+
+<div class="container">
+	<div class="col-md-3 col_f">
+		<img src="img/logo1.jpg" class="logo_footer"></img>
+		<br>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, saepe. Totam nesciunt eligendi, ab. Et qui sint iste mollitia commodi exercitationem doloremque, pariatur tenetur minus illo harum laboriosam. Dolores, dolorum.
+	</div>
+</div>
+
+
+
+</section>
+	
+</body>
 </html>
