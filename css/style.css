@@ -77,27 +77,6 @@ section .section-subheading {
 
 
 
-
-carouse
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
 Fade content bs-carousel with hero headers
 Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
 Image credits: unsplash.com
@@ -1690,7 +1669,7 @@ footer {
 .nc-icon-outline-bookmark:before { content: "\e608"; }
 .nc-icon-outline-cake:before { content: "\e609"; }
 .nc-icon-outline-cart-add:before { content: "\e60a"; }
-.nc-icon-outline-cart:before { content: "\e60b"; }
+.nc-icon-outline-cart:before { content: ("\e60b"; }
 .nc-icon-outline-chat:before { content: "\e60c"; }
 .nc-icon-outline-cloud:before { content: "\e60d"; }
 .nc-icon-outline-coffee:before { content: "\e60e"; }
