@@ -209,7 +209,16 @@ Image credits: unsplash.com
 
 
 .bg-primary {
- background-color: #000 !important;
+ background-color: #273140 !important;
+}
+
+.cont-box {
+  display: -webkit-inline-box;
+  padding: 5%;
+}
+
+.cont-box-9{
+  padding: 2%;
 }
 
 .bg-circle
@@ -232,6 +241,7 @@ Image credits: unsplash.com
   border: 2px solid;
   border-color: smoke;
   border-radius: 50%;
+  margin: 0 5% 0 0;
 }
 
 
@@ -1422,7 +1432,6 @@ header .container {
 -----------------------------------------*/
 
 footer {
-    padding: 0 0 40px 0;
     text-align: center;
 }
 .lower-footer span,
