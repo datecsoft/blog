@@ -318,6 +318,7 @@ p {
 ::selection {
     text-shadow: none;
     color: #fff;
+    background:  #1080f2;
 }
 img::selection {
     background: 0 0;
