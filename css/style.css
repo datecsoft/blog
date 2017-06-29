@@ -840,6 +840,7 @@ body.modal-open {
     width: inherit;
     top: inherit;
     background: #273140;
+    padding: 9px 20px;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,

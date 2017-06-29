@@ -3,6 +3,7 @@ $(document).ready(function() {
         
         var linkhref = $(this).find("a").attr("href");
         
+
         $('html, body').stop().animate({
         	scrollTop:$(linkhref).offset().top
         	        }, 1500, 'easeInOutExpo');
