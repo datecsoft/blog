@@ -58,6 +58,7 @@ section .section-subheading {
 
 .icono{
 	height: 100px;
+    margin-top: 15px
 }
 
 .features-tabs h2.section-heading {
@@ -69,9 +70,9 @@ section .section-subheading {
   padding-bottom: 3%;
 }
 
-
-
-
+@media only screen and (min-width: 1080px) {
+ .icono{ margin-top: 0px; }
+ }
 
 
 
@@ -1981,8 +1982,8 @@ footer {
         padding-left: 0;
     }
 }
-@media (max-width: 960px) {
 
+@media (max-width: 960px) {
 
     #main-menu .navbar-nav .menu-item-has-children .mobile-dropdown {
     font: normal normal normal 14px/1 FontAwesome;
