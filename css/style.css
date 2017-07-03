@@ -38,8 +38,7 @@
     }
     
     .single_choose_us:before {
-        background-color: #333;
-        opacity: 0.8;
+        background-color: rgba(0, 0, 0, 0.7);
         content: "";
         height: 100%;
         left: -25%;
@@ -68,7 +67,7 @@
     }
     
     .single_choose_us:hover:before {
-        background-color: rgba(52, 73, 94, 0.9);
+        background-color: rgba(0, 0, 0, 0.7);
         width: 150%;
     }
     
@@ -85,7 +84,7 @@
     }
     
     .choose_us_icon {
-        background-color: #ff9800;
+        background-color: #fff;
         border-radius: 50%;
         color: #fff;
         height: 70px;
