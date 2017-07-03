@@ -91,6 +91,8 @@
         margin: 0 auto 15px;
         width: 70px;
         display: block;
+        vertical-align: middle;
+        text-align: center;
     }
     
     .choose_us_icon>i {

@@ -45,13 +45,14 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
 
-
  <script type="text/javascript" src="js/javascript.js"></script>
  <script type="text/javascript" src="js/bootstrap.min.js"></script>
  <script type="text/javascript" src="js/jquery.js"></script>
+ <script type="text/javascript" src="js/loader.js"></script>
  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
  <script type="text/javascript" src="js/tt_vc_script.js"></script>
  <script type="text/javascript" src="js/SmoothScroll.js"></script>
+
 
 
 		<style type="text/css">
@@ -73,9 +74,15 @@
 
 <body class="home page-template-default page page-id-5 page-parent mobile-app wpb-js-composer js-comp-ver-4.12.1 vc_responsive">
 
-<header></header>
+<div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+</div>
+
+    <header></header>
          
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <nav id="themenu" class="navbar navbar-default navbar-fixed-top hidden" role="navigation">
          <div class="container">
             <div id="logo">
                <a class="logo" href="https://www.facebook.com/datecsoft/" target="_blank">
@@ -211,7 +218,8 @@
                         <div class="single_choose_us item" style="background-image: url(img/slide1.png); height: 318px;">
                             <div class="choose_us_icon_title">
                                 <div class="choose_us_icon">
-                                    <i class="icon-layers" aria-hidden="true"></i>
+                                 
+                                <i class="icon-genius" aria-hidden="true" style="color:black; background-image: url(img/dico.png);" >D</i>
                                 </div>
                                 <h4>Datecsoft</h4>
                             </div>
