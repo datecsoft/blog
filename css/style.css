@@ -514,6 +514,11 @@ Image credits: unsplash.com
   padding: 5%;
 }
 
+.cont-pad1{
+  display: -webkit-inline-box;
+  padding-bottom: 2%;
+}
+
 .cont-box-9{
   padding: 4%;
 }
