@@ -362,7 +362,8 @@ section .section-subheading {
 }
 
 @media only screen and (min-width: 1080px) {
- .icono{ margin-top: 0px; }
+ .icono{ margin-top: 0px;
+  margin-bottom: 30px;}
  }
 
 
