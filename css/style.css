@@ -505,13 +505,17 @@ Image credits: unsplash.com
  background-color: #273140 !important;
 }
 
+.bg-secondary {
+ background-color: #000 !important;
+}
+
 .cont-box {
   display: -webkit-inline-box;
   padding: 5%;
 }
 
 .cont-box-9{
-  padding: 2%;
+  padding: 4%;
 }
 
 .bg-circle
