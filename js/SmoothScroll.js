@@ -21,4 +21,17 @@ $('#gotop').click(function(e){
         e.preventDefault();
 });
 
+jQuery(window).scroll(function() {
+
+    if (jQuery(this).scrollTop()>0)
+     {
+      jQuery('#gotop').fadeIn();  
+     }
+
+    else
+     {
+      jQuery('#gotop').fadeOut();
+     }
+ });
+
 });

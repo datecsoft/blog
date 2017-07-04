@@ -9,6 +9,22 @@
 }
 
 
+#gotop {
+    background-color: #2c3e50;
+    border-radius: 50%;
+    bottom: 30px;
+    color: #fff;
+    font-size: 30px;
+    right: 30px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 20;
+}
+
 /* Why Choose Us Area CSS */
     .choosecontainer {
         padding-left: 0;
