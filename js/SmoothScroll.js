@@ -11,4 +11,14 @@ $(document).ready(function() {
         e.preventDefault();
 
     });
+
+$('#gotop').click(function(e){
+	var linkhref = $(this).attr("href");
+  $('html,body').stop().animate({
+        	scrollTop:$(linkhref).offset().top
+        	        }, 1500, 'easeInOutExpo');
+
+        e.preventDefault();
+});
+
 });
