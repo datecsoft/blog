@@ -1,3 +1,14 @@
+
+/* round img */
+
+.ico-circle {
+    border-radius: 50%;
+    width: 70px;
+    height: auto;
+
+}
+
+
 /* Why Choose Us Area CSS */
     
     .table {
@@ -50,7 +61,7 @@
         transition-duration: 500ms;
         width: 100%;
         z-index: -1;
-        border-right: 5px solid #ff9800;
+        border-right: 5px solid #fff;
     }
     
     .single_choose_us:hover:after {
