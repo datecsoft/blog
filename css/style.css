@@ -10,7 +10,11 @@
 
 
 /* Why Choose Us Area CSS */
-    
+    .choosecontainer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .table {
         display: table;
         z-index: 9;
@@ -508,6 +512,14 @@ Image credits: unsplash.com
 @media screen and (max-width: 640px){
     .hero h1 { font-size: 4em; }    
 }
+
+@media screen and (max-width: 640px){
+    .single_choose_us {
+         width: 100%;
+    }    
+}
+
+
 
 
 /*ESTILOS DE FOOTER*/
